@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+postgres = "*"
+cors = "*"
+sqlalchemy = "*"
+jinja2 = "*"
+flask-sqlalchemy = "*"
+development = "*"
+export = "*"
+pipenv = "*"
+Marshmallow = "*"
+schema = "*"
+deta = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
